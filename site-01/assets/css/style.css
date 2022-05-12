@@ -1,0 +1,994 @@
+/***************** SPECIAL *************************/
+@font-face {font-family: "Adamina-Regular";src: local('Adamina-Regular'), 
+local('Adamina-Regular'), url("/assets/fonts/Adamina-Regular.ttf") format("truetype");font-display: swap;}
+h1,h2,h3,h4,h5,p, ul li, a{
+	font-family: 'Adamina-Regular';font-weight: 400;
+}
+h1, h2, h3, h4, h5{
+	font-size: 60px !important;color: #DFC56A;
+}
+p{
+	font-size: 20px !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+#section-first .arrow-section img, 
+#section-second .arrow-section img,
+#section-third .arrow-section img,
+#section-fourth .arrow-section img,
+#section-fifth .arrow-section img,
+#section-sixth .arrow-section img,
+#section-seventh .arrow-section img
+{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0%;
+	right: 0%;
+	top: calc(100% -  50px);
+	bottom: 0%;
+    width: 50px;
+}
+/************* NAVBAR ******************/
+header{
+	z-index: 9999;
+	position: fixed;
+    width: 100%;
+    opacity: 0.8;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #DFC56A !important;
+	transition-duration: 2s;
+	cursor: pointer;
+}
+a.navbar-brand {
+	position: absolute;
+	z-index: 9999;
+	padding-left: 35px !important;
+}
+a.navbar-brand img{
+	height: 35px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-dark {
+	background: #0a0a0a !important;
+	color: #ffff !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255) !important;
+    font-family: 'Adamina-Regular';
+    font-weight: 400;
+    font-size: 25px;
+}
+li.nav-item {
+    padding-right: 22px;
+}
+/*********** FIRST SECTION *************/
+#section-first{
+	height: 100vh;
+	background: #010001;
+	position: relative;
+}
+#section-first .main-logo{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	right: 0%;
+	left: 0%;
+	top: 0%;
+	bottom: 0%;
+	position: absolute;
+	z-index: 2;
+}
+#section-first video {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 0;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#section-first .social-networks{
+	position: absolute;
+	right: 1%;
+	top: 80%;
+	display: flex;
+	flex-direction: column;
+	z-index: 5;
+	height: auto;
+	position: absolute;
+	transform: rotate(180deg);
+}
+
+#section-first .social-networks .social{
+	border-radius: 100%;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	border: 2px solid #DFC56A;
+	border-bottom: none;
+}
+#section-first .social-toggle{
+	position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    padding-right: 3px !important;
+    color: #dbbd61;
+}
+#section-first .social-drop{
+	height: 220px;
+	width: 40px;
+	background: none;
+	display: none;
+	position: absolute;
+	top: 55px;
+	border-radius: 30px;
+	border: 2px solid #DFC56A;
+	border-top: none;
+}
+#section-first .social-networks .social ul{
+	margin-top: 15px;
+}
+#section-first .social-networks .social ul li{
+	text-align: center;
+	display: block;
+	margin-left: -33.5px;
+	color: #FFF;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+#section-first .social-networks .social ul li a img{
+	width: 25px;
+	height: 25px;
+	transform: rotate(-180deg);
+}
+
+
+
+
+
+/*********** SECOND SECTION *************/
+#section-second{
+	background: #0a0a0a;
+	padding-top: 40px;
+	padding-bottom: 170px;
+	position: relative;
+}
+#section-second:before{
+	background-image: url('/assets/images/02/background.png');
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background-size: cover;
+}
+#section-second .header-section{
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#section-second .row-sub-header .sub-header{
+	color: white;
+	position: relative;
+}
+#section-second .row-sub-header .yellow-line-width{
+	position: absolute;
+	background: #DFC56A;
+    width: 50px;
+    height: 5px;
+    top: 10px;
+    left: -75px;
+}
+#section-second .sub-header p{
+	margin-bottom: 0px;
+}
+#section-second .row-exchange{
+	position: relative;
+}
+#section-second .row-exchange .coin{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+#section-second  .row-exchange .yellow-line-top-second{
+	background: #DFC56A;
+    width: 5px;
+    height: 140px;
+    top: -210px;
+    left: 20%;
+    position: absolute;
+}
+#section-second .row-sub-header{
+	margin-bottom: 100px;
+}
+#section-second .coin-advantages{
+	color: white;
+	position: relative;
+	padding-left: 25px;
+}
+#section-second .coin-advantages .advantages-point{
+	margin-bottom: 50px;
+	position: relative;
+}
+
+#section-second .coin-advantages .advantages-point p{
+	font-size: 18px !important;
+	margin-bottom: 0px !important;
+}
+#section-second .coin-advantages .advantages-point .line-adv{
+	background: #DFC56A;
+	width: 20px;
+	height: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
+	top: 0%;
+	bottom: 0%;
+	position: absolute;
+	margin-left: -35px;
+}
+#section-second .yellow-line-top{
+	width: 5px;
+    height: calc(100% + 40%);
+    position: absolute;
+    background: #DFC56A;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    top: -75px;
+    bottom: 0%;
+    margin-left: -40px;
+
+}
+
+#section-second .yellow-line-right{
+	position: absolute;
+	background: #DFC56A;
+    height: 5px;
+    width: 35%;
+    right: 0%;
+    top: 72.5px;
+}
+#section-second .yellow-line-left{
+	position: absolute;
+    background: #DFC56A;
+    height: 5px;
+    width: 50%;
+    left: 0%;
+    top: 297px;
+}
+
+
+
+/*********** THIRD SECTION *************/
+#section-third{
+	background: #0a0a0a;
+	height: 100vh;
+	padding: 90px 0px;
+	position: relative;
+}
+#section-third:before{
+	background-image: url(/assets/images/03/background.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 55%;
+    bottom: 0;
+    content: "";
+    background-size: contain;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+#section-third .header-section{
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 60px;
+}
+#section-third ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#section-third ul li{
+	color: white;
+	font-size: 20px;
+  	background: url(/assets/images/03/li.png);
+  	background-repeat: no-repeat;
+  	padding-left: 40px;
+}
+#section-third ul li:nth-child(1){
+	margin-bottom: 100px;
+}
+#section-third .yellow-line-left{
+    background: #DFC56A;
+    height: 5px;
+    width: 5%;
+    position: absolute;
+    top: 126px;
+    left: 0%;
+}
+/*********** FOURTH SECTION *************/
+#section-fourth{
+	padding: 60px 0px;
+	position: relative;
+	background: #0a0a0a;
+	height: 120vh;
+}
+#section-fourth:before{
+	background-image: url('/assets/images/04/background.png');
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background-size: cover;
+}
+#section-fourth .header-section{
+	text-align: center;
+	text-transform: uppercase;
+}
+#section-fourth .sub-header{
+	color: #EBEBEB;
+	font-size: 14px;
+	text-align: center;
+}
+#section-fourth .row-card{
+	margin-top: 0px;
+}
+#section-fourth .card-version{
+	position: relative;
+}
+#section-fourth .card-version img{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+#section-fourth .card-version ul{
+	color: white;
+	font-size: 14px;
+}
+#section-fourth .card-version ul li:nth-child(1){
+	display: none;
+}
+#section-fourth .card-version .card-title-01,
+#section-fourth .card-version .card-title-02,
+#section-fourth .card-version .card-title-03
+{
+	text-align: center;
+	font-size: 46px !important;
+	color: #EBEBEB;
+}
+
+
+
+#section-fourth .card-version label {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+}
+#section-fourth .card-version .card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    z-index: 20;
+    background: none;
+    border: 0px;
+}
+#section-fourth .card-version .card div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+#section-fourth .card-version .card .back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+#section-fourth .card-version label:hover .card {
+    -webkit-transform: rotateY(20deg);
+    transform: rotateY(20deg);
+    box-shadow: 0 20px 20px rgba(50,50,50,.2);
+}
+#section-fourth .card-version input {
+    display: none;
+}
+#section-fourth .card-version :checked + .card {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+#section-fourth .card-version label:hover :checked + .card {
+    transform: rotateY(160deg);
+    -webkit-transform: rotateY(160deg);
+    box-shadow: 0 20px 20px rgba(255,255,255,.2);
+}
+#section-fourth .card-margin{
+	position: relative;
+	top: 370px;
+}
+
+
+/*********** FIFTH SECTION *************/
+#section-fifth{
+	padding: 45px;
+	background: #0a0a0a;
+	position: relative;
+}
+
+#section-fifth .header-section{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+#section-fifth p{
+	position: relative;
+	color: white;
+	margin-bottom: 90px;
+}
+#section-fifth span{
+	color: #DFC56A;
+}
+#section-fifth:before{
+	background-image: url('/assets/images/05/background.png');
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background-size: cover;
+}
+#section-fifth .coin-img img{
+	position: relative;
+	width: 70%;
+	margin: 40px auto;
+	display: block;
+}
+
+
+
+#section-fifth .coin-img .floating{
+    animation-name: floating;
+    -webkit-animation-name: floating;
+ 
+    animation-duration: 6s;   
+    -webkit-animation-duration: 6s;
+ 
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+ 
+@keyframes floating {
+    0% {
+        transform: translateY(0%);  
+    }
+    50% {
+        transform: translateY(8%);  
+    }   
+    100% {
+        transform: translateY(0%);
+    }           
+}
+ 
+@-webkit-keyframes floating {
+    0% {
+        -webkit-transform: translateY(0%);  
+    }
+    50% {
+        -webkit-transform: translateY(8%);  
+    }   
+    100% {
+        -webkit-transform: translateY(0%);
+    }           
+}
+
+
+#section-fifth .coin-img .button{
+	width: 30%;
+	margin-top: 250px !important;
+	margin: 0px auto;
+	display: block;
+	cursor: pointer;
+}
+
+
+
+
+
+#section-fifth .yellow-line-right{
+	position: absolute;
+    right: 0%;
+	width: calc(7% + 30px);
+	top: 70px;
+    background: #DFC56A;
+    height: 5px;
+}
+
+#section-fifth .yellow-line-left{
+	position: absolute;
+    right: calc(41.66666667% - 15px);
+	top: 70px;
+    background: #DFC56A;
+    width: 90px;
+    height: 5px;
+}
+#section-fifth .yellow-line-top{
+	position: absolute;
+    right: calc(41.66666667% + 75px);
+    background: #DFC56A;
+    width: 5px;
+    height: 75%;
+    top: 70px;
+}
+
+
+/*********** SIXTH SECTION *************/
+#section-sixth{
+	position: relative;
+	background: #0a0a0a;
+	padding: 15vh 0vh;
+}
+#section-sixth:before{
+	background-image: url('/assets/images/06/background.png');
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background-size: cover;
+}
+#section-sixth .header-section{
+	text-align: center;
+}
+#section-sixth iframe{
+	position: relative;
+}
+#section-sixth .phone-block
+{
+	position: relative;
+}
+#section-sixth .phone-block .phone{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+#section-sixth .video-description p{
+	color: white;
+}
+#section-sixth .video-description p:nth-child(1){
+	font-size: 16px !important;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+#section-sixth .video-button{
+	margin-top: 100px;
+}
+#section-sixth .video-button-mobile{
+	display: none;
+}
+#section-sixth .video-button button{
+	width: 225px;
+	background: none;
+	color: white;
+	font-size: 20px;
+	border: 2px solid #e2c874;
+	border-radius: 15px;
+	padding: 20px;
+	position: relative;
+}
+#section-sixth .video-button .first-button{
+	float: right;
+	width: 80%;
+}
+#section-sixth .video-button .second-button
+{
+	float: left;
+}
+#section-sixth .video-button .first-button img, #section-sixth .video-button .second-button img{
+	height: 60px;
+}
+#section-sixth .yellow-line-left{
+	position: absolute;
+	left: 0%;
+	width: calc(53% - -5px);
+	top: calc(15vh + 36px);
+    background: #DFC56A;
+    height: 5px;
+}
+#section-sixth .yellow-line-right{
+	position: absolute;
+	right: 0%;
+	width: calc(17.5% - 110px);
+	top: calc(15vh + 36px);
+    background: #DFC56A;
+    height: 5px;
+}
+/*********** SEVENTH SECTION *************/
+#section-seventh{
+	background: #0a0a0a;
+	padding: 120px 0px;
+	position: relative;
+}
+#section-seventh:before{
+	background-image: url('/assets/images/07/background.png');
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background-size: cover;
+    z-index: 1;
+}
+#section-seventh .info-block{
+	z-index: 2;
+	position: relative;
+}
+#section-seventh .info-detail{
+	position: relative;
+}
+#section-seventh .info-detail img{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+#section-seventh .info-detail .header-section{
+	top: -30px;
+	position: absolute;
+}
+#section-seventh .info-detail .contact-text{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 10%;
+	right: 0%;
+	top: 25%;
+}
+#section-seventh .info-detail p
+{
+	margin-bottom: 30px;
+	color: white;
+}
+#section-seventh .info-detail ul{
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 30px;
+	color: white;
+}
+#section-seventh .info-detail ul li{
+	color: white;
+  	background: url(/assets/images/03/li.png);
+  	background-repeat: no-repeat;
+  	padding-left: 40px;
+  	list-style-type: none;
+}
+#section-seventh .info-detail a{
+	text-decoration: none;
+	color: white !important;
+}
+#section-seventh .info-detail a:hover{
+	color: #DFC56A !important;
+	transition-duration: 2s;
+}
+#section-seventh .info-social{
+	margin-top: 20px;
+}
+#section-seventh .info-social a{
+	margin-right: 2px;
+	text-decoration: none;
+	color: white;
+}
+#section-seventh .info-social a img{
+	height: 40px;
+	width: 40px;
+}
+/*********** FOOTER *************/
+footer{
+	background: #0a0a0a;
+	padding: 25px 0px;
+	border-top: 2px solid #DFC56A;
+}
+footer .footer-logo{
+	display: block;
+	margin: 15px auto;
+}
+footer .footer-link{
+	display: flex;
+	flex-direction: row;
+}
+footer .footer-link{
+	color: white;
+	display: flex;
+    justify-content: center;
+}
+footer .footer-link p{
+	margin: 20px 10px;
+}
+footer .footer-link a{
+	color: white;
+	text-decoration: none;
+
+}
+footer .footer-link a:hover{
+	color: #DFC56A !important;
+	transition-duration: 2s;
+}
+footer .footer-privacy p{
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+@media (max-width: 1499.98px) {
+	/****** SECTION THIRD ************/
+	#section-third .yellow-line-left{
+	width: 3%;
+	}
+	/****** SECTION FIFTH ************/
+	#section-fifth .yellow-line-right{
+		width: 6%;
+	}
+	/****** SECTION SIXTH ************/
+	#section-sixth .yellow-line-right{
+		width: 7%;
+	}
+	#section-sixth .yellow-line-left{
+		width: 53%;
+	}
+}
+@media (max-width: 1399.98px) {
+	/****** SECTION FIFTH ************/
+	#section-fifth .yellow-line-right{
+		width: 8%;
+	}
+	#section-fifth .yellow-line-left{
+		right: calc(41.66666667% + 35px);
+    	width: 40px;
+	}
+	/****** SECTION SIXTH ************/
+	#section-sixth .yellow-line-right{
+		width: 8%;
+	}
+	#section-sixth .yellow-line-left{
+		width: 50%;
+	}
+}
+@media (max-width: 1299.98px) {
+	/****** SECTION FIFTH ************/
+	#section-fifth .yellow-line-right {
+    	width: 4%;
+	}
+	/****** SECTION SIXTH ************/
+	#section-sixth .yellow-line-right{
+		width: 5%;
+	}
+}
+@media (max-width: 1199.98px) {
+
+	/****** SECTION FOURTH ************/
+	#section-fourth .card-version img{
+		width: 70%;
+	}
+	#section-fourth .card-margin{
+		top: 375px;
+	}
+
+
+}
+@media (max-width: 991.98px) {
+	/******** SPECIAL **********/
+	.yellow-line-right, .yellow-line-left, .yellow-line-top, .yellow-line-top-second{
+		display: none;
+	}
+	a.navbar-brand{
+		padding-top: 0px;
+		padding-left: 15px !important;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		font-size: 16px;
+	}
+	.navbar-brand img{
+		height: 30px;
+	}
+	.navbar-nav{
+		margin-left: 30px;
+		display: flex;
+		flex-direction: row !important;
+	}
+	/****** SECTION SECOND ************/
+	#section-second .row-sub-header{
+		margin-bottom: 0px;
+	}
+	/****** SECTION FOURTH ************/
+	#section-fourth{
+		height: 100vh;
+	}
+	#section-fourth .card-margin{
+		top: 280px;
+	}
+	#section-fourth .card-version .card-title-01, #section-fourth .card-version .card-title-02, #section-fourth .card-version .card-title-03{
+		font-size: 30px !important;
+	}
+}
+@media (max-width: 767.98px) {
+	/******* SPECIAL ****************/
+	h1, h2, h3, h4, h5{
+		font-size: 50px !important;color: #DFC56A;
+	}
+	/****** SECTION FOURTH ************/
+	#section-fourth{
+		height: 110vh;
+	}
+	#section-fourth .card-version img{
+		width: 100%;
+	}
+	#section-fourth .card-margin{
+		top: 290px;
+	}
+	#section-fourth .card-version .card-title-01, #section-fourth .card-version .card-title-02, #section-fourth .card-version .card-title-03{
+		font-size: 20px !important;
+	}
+	/****** SECTION FIFTH ************/
+	#section-fifth:before{
+		background-position-x: 15%;
+	}
+	#section-fifth p{
+		margin-bottom: 10px;
+	}
+	#section-fifth .coin-img .button{
+		width: 60%;
+		margin-top: 10px !important;
+		margin-bottom: 10px;
+	}
+	/****** SECTION SIXTH ************/
+	#section-sixth{
+		padding: 40px 0px;
+	}
+	#section-sixth .video-button{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 575.98px){
+	/******** SPECIAL **********/
+	h1, h2, h3, h4, h5{
+		font-size: 40px !important;color: #DFC56A;
+	}
+	p{
+		font-size: 16px !important;
+	}
+	/****** SECTION FIRTS ************/
+	#section-first{
+		height: 350px;
+	}
+	/****** SECTION SECOND ************/
+	#section-second{
+		padding: 30px 0px;
+	}
+	#section-second .row-sub-header{
+		margin-bottom: 0px;
+	}
+	/****** SECTION THIRD ************/
+	#section-third{
+		padding: 50px 0px;
+		height: auto;
+	}
+	#section-third:before{
+		left: -50%;
+		background-size: cover;
+	}
+	#section-third .header-section{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	#section-third ul li{
+		font-size: 16px;
+	}
+	#section-third ul li:nth-child(1){
+		margin-bottom: 15px !important;
+	}
+	/****** SECTION FOURTH ************/
+	#section-fourth{
+		height: auto;
+	}
+	#section-fourth .card-version{
+		margin-bottom: 500px;
+	}
+	#section-fourth .card-margin{
+		top: 450px;
+	}
+	#section-fourth .card-version img{
+		width: 50%;
+	}
+	/****** SECTION FIFTH ************/
+	#section-fifth:before{
+		background-position-x: 22%;
+	}
+	#section-fifth p{
+		margin-bottom: 0px;
+	}
+	#section-fifth .coin-img .button{
+		width: 80%;
+		margin-top: 0px !important;
+		margin-bottom: 15px;
+	}
+	/****** SECTION SIXTH ************/
+	#section-sixth{
+		padding: 30px 0px;
+	}
+	#section-sixth .video-button{
+		display: none;
+	}
+	#section-sixth .video-button-mobile{
+		display: block;
+		margin-bottom: 30px;
+	}
+	#section-sixth .video-button-mobile .first-button img,
+	#section-sixth .video-button-mobile .second-button img{
+		display: block;
+	    margin: 10px auto;
+	    float: none;
+	    text-align: center;	
+	    height: 60px;
+	}
+}
+@media (max-width: 399.98px){
+	/******** SPECIAL **********/
+	h1, h2, h3, h4, h5{
+		font-size: 25px !important;
+	}
+	p, .navbar-light .navbar-nav .nav-link{
+		font-size: 14px !important;
+	}
+	/****** SECTION FOURTH ************/
+	#section-fourth .card-version{
+		margin-bottom: 360px;
+	}
+	#section-fourth .card-margin{
+		top: 340px;
+	}
+}
+@media (max-width: 290.98px){
+	/******* SPECIAL ****************/
+	.navbar-light .navbar-nav .nav-link{
+		font-size: 9px !important;
+	}
+
+	#section-fourth .card-margin {
+	    top: 260px;
+	}
+
+
+}
